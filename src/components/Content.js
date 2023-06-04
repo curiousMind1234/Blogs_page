@@ -6,7 +6,7 @@ import Spinner from './Spinner';
 const Content = () => {
   const { posts, loading } = useContext(AppContext);
   return (
-    <div className='w-11/12 max-w-[670px] h-screen py-8 flex flex-col gap-y-7 mt-[350px] mb-[300px] 
+    <div className='w-11/12 max-w-[670px] h-screen py-8 flex flex-col gap-y-7 mt-[350px] mb-[350px] 
      justify-center items-center '>
       {
         loading ?
